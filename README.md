@@ -5,3 +5,5 @@ Blue OnePage HTML5 Business Template
 <a href="http://themefisher.com/download/blue-one-page-business-template/">Live Preview</a>
 ========
 Blue is a html5 one page landing page template developed based on twitter bootstrap 3.2. It can be used as show case for your Business website and Beauty &amp; Spa website.We organized file structure and descriptive comments on codes will enable your showcase easy to maintain.
+
+http://demo.themewagon.com/preview/blue-free-one-page-corporate-agency-bootstrap-template
