@@ -6,12 +6,12 @@
 * Author : Muhammad Morshd
 * Author URI : http://morsheds.com
 *
-* --------------------------------------------------------------------------- 
+* ---------------------------------------------------------------------------
 *
 */
 
 /* =================================== */
-/*	Basic Style 
+/*	Basic Style
 /* =================================== */
 
 body {
@@ -93,21 +93,21 @@ main > section {
 		-ms-transform: translateZ(0);
 		 -o-transform: translateZ(0);
 			transform: translateZ(0);
-		  
+
 	-webkit-backface-visibility: hidden;
 	   -moz-backface-visibility: hidden;
 			backface-visibility: hidden;
-		  
+
 	-webkit-transition-property: color;
 	   -moz-transition-property: color;
 		-ms-transition-property: color;
 			transition-property: color;
-		  
+
 	-webkit-transition-duration: 0.3s;
 	   -moz-transition-duration: 0.3s;
 		-ms-transition-duration: 0.3s;
 			transition-duration: 0.3s;
-		  
+
 	-moz-osx-font-smoothing: grayscale;
 }
 
@@ -120,27 +120,27 @@ main > section {
 	right: 0;
 	bottom: 0;
 	background: #fff;
-	
+
 	-webkit-transform: scaleX(0);
 	   -moz-transform: scaleX(0);
 		-ms-transform: scaleX(0);
 			transform: scaleX(0);
-			
+
 	-webkit-transform-origin: 0 50%;
 	   -moz-transform-origin: 0 50%;
 		-ms-transform-origin: 0 50%;
 			transform-origin: 0 50%;
-			
+
 	-webkit-transition-property: transform;
 	   -moz-transition-property: transform;
 		-ms-transition-property: transform;
 			transition-property: transform;
-			
+
 	-webkit-transition-duration: 0.3s;
 	   -moz-transition-duration: 0.3s;
 		-ms-transition-duration: 0.3s;
 			transition-duration: 0.3s;
-			
+
 	-webkit-transition-timing-function: ease-out;
 	   -moz-transition-timing-function: ease-out;
 		-ms-transition-timing-function: ease-out;
@@ -232,13 +232,13 @@ main > section {
     border: 1px #2E2E2E solid;
     border-radius: 2px;
     position: relative;
-    -webkit-animation: charge 5s linear infinite;
-       -moz-animation: charge 5s linear infinite;
-            animation: charge 5s linear infinite;
+    -webkit-animation: charge 3s linear infinite;
+       -moz-animation: charge 3s linear infinite;
+            animation: charge 3s linear infinite;
     margin: 0 auto;
 }
 
-.battery:after {
+/*.battery:after {
   background-color: #2E2E2E;
   border-radius: 0 1px 1px 0;
   content: "";
@@ -247,7 +247,7 @@ main > section {
   right: -5px;
   top: 7px;
   width: 3px;
-}
+}*/
 
 @-webkit-keyframes charge{
     0%{box-shadow: inset 0px 0px 0px #2E2E2E;}
@@ -335,7 +335,7 @@ h1.navbar-brand {
     height: 100%;
     top: 0;
     left: 0;
-} 
+}
 
 .sl-slide {
     z-index: 1;
@@ -352,6 +352,8 @@ h1.navbar-brand {
     top: 0;
     width: 100%;
     z-index: 11;
+    background: rgba(0,0,0,0.5);
+    padding-bottom: 30px;
 }
 
 .slide-caption .caption-content {
@@ -378,6 +380,7 @@ h1.navbar-brand {
     font-size: 29px;
     margin-bottom: 65px;
 }
+
 
 /* The duplicate parts/slices */
 
@@ -641,7 +644,7 @@ figcaption.mask {
     position: absolute;
     width: 100%;
     text-align: left;
-    
+
     -webkit-transition: all 0.4s ease 0s;
        -moz-transition: all 0.4s ease 0s;
         -ms-transition: all 0.4s ease 0s;
@@ -665,7 +668,7 @@ ul.external {
     position: absolute;
     right: 0;
     top: -47px;
-    
+
     -webkit-transition: all 0.4s ease 0s;
        -moz-transition: all 0.4s ease 0s;
         -ms-transition: all 0.4s ease 0s;
@@ -682,7 +685,7 @@ ul.external li a {
     color: #818181;
     display: block;
     padding: 10px 18px 13px;
-    
+
     -webkit-transition: all 0.5s ease 0s;
        -moz-transition: all 0.5s ease 0s;
         -ms-transition: all 0.5s ease 0s;
@@ -929,7 +932,7 @@ ul.external li a:hover {
     height: 90px;
     line-height: 96px;
     width: 90px;
-    
+
     -webkit-transition: all 0.2s ease 0s;
        -moz-transition: all 0.2s ease 0s;
         -ms-transition: all 0.2s ease 0s;
@@ -1067,7 +1070,7 @@ textarea.form-control {
 .submit-icon .fa-paper-plane {
     position: relative;
     top: 0;
-    
+
     -webkit-transform: translateX(0);
        -moz-transform: translateX(0);
         -ms-transform: translateX(0);
@@ -1084,7 +1087,7 @@ textarea.form-control {
 .submit-icon:hover .fa-paper-plane {
     position: relative;
     top: -37px;
-    
+
     -webkit-transform: translateX(30px);
        -moz-transform: translateX(30px);
         -ms-transform: translateX(30px);
@@ -1111,7 +1114,7 @@ textarea.form-control {
 .footer-social ul li a {
     color: #7f7f7f;
     display: block;
-    
+
     -webkit-transition: all 0.2s ease 0s;
        -moz-transition: all 0.2s ease 0s;
         -ms-transition: all 0.2s ease 0s;
@@ -1130,7 +1133,7 @@ textarea.form-control {
 
 
 
-/*============================================================ 
+/*============================================================
 	Responsive Styles
  ============================================================*/
 
